@@ -1,2 +1,1 @@
-# poly.gg-projects
-Library of poly-gg snippets.
+Library of snippets.
