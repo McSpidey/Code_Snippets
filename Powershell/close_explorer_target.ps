@@ -1,0 +1,3 @@
+$shell = New-Object -ComObject Shell.Application; $shell.Windows() |
+  Where-Object { $_.Name -eq 'File Explorer' -and $_.LocationURL -eq 'file:///D:/Temp' } |
+  ForEach-Object { $_.Quit() }
